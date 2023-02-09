@@ -1,4 +1,8 @@
 ﻿using Eletjatek;
 
-EletjatekSzimulator ejsz = new(10, 5);
-ejsz.Megjelenit();
+EletjatekSzimulator ejsz = new(20, 40);
+
+while(true)
+{
+    ejsz.Run();
+}
